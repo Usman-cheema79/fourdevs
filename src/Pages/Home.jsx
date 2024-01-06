@@ -1,0 +1,321 @@
+import React from 'react'
+import "./Home.css"
+import img from "../img/final-1.png"
+
+import Navbar from '../Compnent/Navbar'
+export default function Home() {
+    const navlicolour="text-danger";
+    
+  return (
+    <>
+      <div className="container">
+      <div className='body'>
+        <Navbar colour={navlicolour}/>
+        <div className="header">
+            <div className="header-text">
+                <button className='headerbtn1'>WELCOME TO FOURDEVS</button>
+                <div className='header-heading'>Welcome to FourDevs Technologies!</div>
+                <div className='header-para'>FourDevs Software Company Provides The Highest Quality of Web Technology, Apps and Services at Affordable Price. We Build Scalable, Robust and Reliable Apps that are Designed to fit into any Business Environment.</div>
+                <div className='header-btn'>
+                    <div  >
+                      <button className="standard-btn"><div>Get Started</div>
+                      <div> 
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" width="30" height="30" viewBox="0 0 256 256" xmlSpace="preserve">
+                            <g style={{ stroke: 'none', strokeWidth: 0, strokeDasharray: 'none', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeMiterlimit: 10, fill: 'none', fillRule: 'nonzero', opacity: 1 }} transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path d="M9.518 37.866H1c-0.552 0-1-0.448-1-1s0.448-1 1-1h8.518c0.552 0 1 0.448 1 1S10.07 37.866 9.518 37.866z" style={{ stroke: 'none', strokeWidth: 1, strokeDasharray: 'none', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeMiterlimit: 10, fill: 'rgb(255,255,255)', fillRule: 'nonzero', opacity: 1 }} transform="matrix(1 0 0 1 0 0)" strokeLinecap="round" />
+                                <path d="M57.872 77.188c-0.603 0-1.206-0.229-1.665-0.688l-9.587-9.587c-0.918-0.92-0.918-2.414 0-3.332l9.447-9.447H29.181c-0.552 0-1-0.447-1-1s0.448-1 1-1h29.301c0.404 0 0.77 0.243 0.924 0.617c0.155 0.374 0.069 0.804-0.217 1.09L48.034 64.995c-0.139 0.139-0.139 0.365 0.001 0.505l9.585 9.585c0.139 0.14 0.365 0.139 0.504 0l29.78-29.781c0.084-0.084 0.099-0.191 0.096-0.266c0.003-0.15-0.012-0.257-0.096-0.341l-29.78-29.781c-0.181-0.18-0.321-0.184-0.504 0l-9.586 9.585c-0.139 0.139-0.139 0.365 0 0.504l11.154 11.153c0.286 0.286 0.372 0.716 0.217 1.09c-0.154 0.374-0.52 0.617-0.924 0.617H18.341c-0.552 0-1-0.448-1-1s0.448-1 1-1h37.727l-9.447-9.447c-0.918-0.919-0.918-2.414 0-3.332l9.586-9.586c0.892-0.891 2.444-0.89 3.332 0l29.78 29.78c0.464 0.463 0.705 1.087 0.68 1.755c0.025 0.593-0.216 1.216-0.68 1.68l-29.78 29.781C59.079 76.958 58.476 77.188 57.872 77.188z" style={{ stroke: 'none', strokeWidth: 1, strokeDasharray: 'none', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeMiterlimit: 10, fill: 'rgb(255,255,255)', fillRule: 'nonzero', opacity: 1 }} transform="matrix(1 0 0 1 0 0)" strokeLinecap="round" />
+                                <path d="M20.862 54.134h-8.295c-0.552 0-1-0.447-1-1s0.448-1 1-1h8.295c0.552 0 1 0.447 1 1S21.414 54.134 20.862 54.134z" style={{ stroke: 'none', strokeWidth: 1, strokeDasharray: 'none', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeMiterlimit: 10, fill: 'rgb(255,255,255)', fillRule: 'nonzero', opacity: 1 }} transform="matrix(1 0 0 1 0 0)" strokeLinecap="round" />
+                                <path d="M41.533 46H7.307c-0.552 0-1-0.448-1-1s0.448-1 1-1h34.226c0.552 0 1 0.448 1 1S42.085 46 41.533 46z" style={{ stroke: 'none', strokeWidth: 1, strokeDasharray: 'none', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeMiterlimit: 10, fill: 'rgb(255,255,255)', fillRule: 'nonzero', opacity: 1 }} transform="matrix(1 0 0 1 0 0)" strokeLinecap="round" />
+                            </g>
+                        </svg>
+                    </div> </button>
+                    </div>
+                    <div className="watch-intro-btn">
+                        <div>
+                            <svg  version="1.1" width="64" height="64" viewBox="0 0 100 100" >
+                            <defs>
+                            </defs>
+                            <g style={{stroke: 'none',strokeWidth: 1,strokeDasharray: 'none',strokeLinecap: 'butt',strokeLinejoin: 'miter',
+                                strokeMiterlimit: 10,
+                                fill: 'rgb(221,34,34)',
+                                fillRule: 'nonzero',
+                                opacity: 1,
+                                }}>
+                                <path d="M 45 90 C 20.187 90 0 69.813 0 45 C 0 20.187 20.187 0 45 0 c 24.813 0 45 20.187 45 45 C 90 69.813 69.813 90 45 90 z" style={{
+                                    stroke: 'none',
+                                    strokeWidth: 1,
+                                    strokeDasharray: 'none',
+                                    strokeLinecap: 'butt',
+                                    strokeLinejoin: 'miter',
+                                    strokeMiterlimit: 10,
+                                    fill: 'rgb(221,34,34)',
+                                    fillRule: 'nonzero',
+                                    opacity: 1,
+                                    }}
+                              transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 63.885 47.325 c 1.79 -1.033 1.79 -3.616 0 -4.649 l -14.816 -8.554 l -14.816 -8.554 c -1.79 -1.033 -4.027 0.258 -4.027 2.325 V 45 v 17.108 c 0 2.066 2.237 3.358 4.027 2.325 l 14.816 -8.554 L 63.885 47.325 z" style={{
+                                stroke: 'none',
+                                strokeWidth: 1,
+                                strokeDasharray: 'none',
+                                strokeLinecap: 'butt',
+                                strokeLinejoin: 'miter',
+                                strokeMiterlimit: 10,
+                                fill: 'rgb(255, 255, 255)',
+                                fillRule: 'nonzero',
+                                opacity: 1,
+                                }}
+                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            </g>
+                            </svg>
+                        </div>
+                        <div ><button className="intro-btn">Watch Intro</button></div>
+                    </div>
+                </div>
+                <div style={{display:"flex",gap:'30px',margin:"50px 0px 0px 50px"}}>
+                <div className="image-container">
+                      <img className="image-container1" src={img}/>
+                      <img className="image-container2" src={img}/>
+                      <img className="image-container2" src={img}/>
+                      <img className="image-container2" src={img}/>
+                </div>
+                    <div className="text-container">
+                      3460+ Satisfied Clients
+                    </div>
+                </div>
+            </div>
+            <div className="header-pic">
+               <div className="dotted-boder">
+               <div className='circle1'>
+               </div>
+               </div>
+                <div className='header-pic-img'>
+                <img loading="lazy" decoding="async" width="325" height="592" src="https://fourdevs.net/wp-content/uploads/2023/09/image-of-happy-asian-woman-reading-message-on-mobi-FKGGSJ9-e1650561666821.png" class="attachment-full size-full wp-image-73" alt="" srcset="https://fourdevs.net/wp-content/uploads/2023/09/image-of-happy-asian-woman-reading-message-on-mobi-FKGGSJ9-e1650561666821.png 325w, https://fourdevs.net/wp-content/uploads/2023/09/image-of-happy-asian-woman-reading-message-on-mobi-FKGGSJ9-e1650561666821-165x300.png 165w" sizes="(max-width: 325px) 100vw, 325px"/>
+                </div>
+            </div>
+        </div>
+        <div className="section">
+            <div class="section1 container ">
+                <div class="row">
+                  <div class="col col1"><h5>Why Choose Us</h5><p>This is the number one reason why you should choose us!</p></div>
+                  <div class="col col2">
+                    <div style={{ paddingBottom:"16px" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="45" height="45" viewBox="0,0,256,256">
+                    <g fill="#ff6400" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style={{ mixBlendMode: 'normal',paddingBottom:"100px" }}><g transform="scale(3.2,3.2)"><path d="M40,7c-18.21484,0 -33,14.78516 -33,33c0,18.21484 14.78516,33 33,33c18.21484,0 33,-14.78516 33,-33c0,-18.21484 -14.78516,-33 -33,-33zM40,9c17.13281,0 31,13.86719 31,31c0,17.13281 -13.86719,31 -31,31c-17.13281,0 -31,-13.86719 -31,-31c0,-17.13281 13.86719,-31 31,-31zM40,11c-1.10547,0 -2,0.89453 -2,2c0,1.10547 0.89453,2 2,2c1.10547,0 2,-0.89453 2,-2c0,-1.10547 -0.89453,-2 -2,-2zM33.01953,12.92188c-0.02344,-0.00391 -0.04687,0 -0.06641,0c-0.07031,0.00391 -0.13281,0.01563 -0.19922,0.03125c-0.53516,0.14453 -0.85156,0.69141 -0.70703,1.22656c0.14453,0.53516 0.69141,0.85156 1.22266,0.70703c0.53516,-0.14453 0.85156,-0.69141 0.71094,-1.22656c-0.11719,-0.43359 -0.50781,-0.73437 -0.96094,-0.73828zM46.98047,12.92188c-0.44922,0.00391 -0.83984,0.30859 -0.95703,0.74219c-0.14453,0.53516 0.17188,1.08203 0.70703,1.22656c0.53516,0.14063 1.08203,-0.17578 1.22266,-0.70703c0.07031,-0.25781 0.03516,-0.53125 -0.09766,-0.76172c-0.13281,-0.23047 -0.35156,-0.39844 -0.60547,-0.46875c-0.08984,-0.01953 -0.17969,-0.03125 -0.26953,-0.03125zM26.47656,15.61719c-0.16797,0.00391 -0.33203,0.05078 -0.47656,0.13281c-0.23047,0.13281 -0.39844,0.35156 -0.46875,0.60938c-0.06641,0.25391 -0.03125,0.52734 0.10156,0.75781c0.13281,0.23047 0.35156,0.39844 0.60938,0.46484c0.25391,0.07031 0.52734,0.03516 0.75781,-0.09766c0.47656,-0.27734 0.64063,-0.89062 0.36328,-1.36719c-0.17969,-0.31641 -0.51953,-0.50781 -0.88672,-0.5zM53.45313,15.62109c-0.33984,0.01563 -0.64844,0.20313 -0.82031,0.5c-0.27734,0.47656 -0.10937,1.08594 0.36719,1.36328c0.47656,0.27734 1.08984,0.11328 1.36328,-0.36328c0.13672,-0.23047 0.17188,-0.50391 0.10156,-0.76172c-0.06641,-0.25781 -0.23437,-0.47656 -0.46484,-0.60937c-0.16406,-0.09375 -0.35547,-0.14062 -0.54687,-0.12891zM40,17c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM20.92188,19.90625c-0.26953,0 -0.53125,0.10547 -0.71875,0.29688c-0.39062,0.38672 -0.39062,1.02344 0,1.41016c0.38672,0.39063 1.02344,0.39063 1.41016,0c0.39063,-0.38672 0.39063,-1.02344 0,-1.41016c-0.18359,-0.1875 -0.42969,-0.29297 -0.69141,-0.29687zM59.10547,19.90625c-0.26953,0 -0.53125,0.10547 -0.71875,0.29688c-0.39062,0.38672 -0.39062,1.02344 0,1.41016c0.38672,0.39063 1.02344,0.39063 1.41016,0c0.39063,-0.38672 0.39063,-1.02344 0,-1.41016c-0.18359,-0.1875 -0.42969,-0.29297 -0.69141,-0.29687zM40,21c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM47.19141,21.3125l-6.53906,14.75391c-0.21484,-0.03516 -0.42969,-0.06641 -0.65234,-0.06641c-2.19922,0 -4,1.80078 -4,4c0,2.19922 1.80078,4 4,4c0.73828,0 1.42188,-0.21484 2.01563,-0.56641l8.42188,8.41406l1.41016,-1.41016l-8.41406,-8.42187c0.35156,-0.59375 0.56641,-1.27734 0.56641,-2.01562c0,-1.26172 -0.60547,-2.37891 -1.52734,-3.11328l6.54688,-14.76562zM63.35938,25.5c-0.16797,0.00391 -0.33203,0.05078 -0.48047,0.13281c-0.47656,0.27734 -0.64062,0.88672 -0.36328,1.36719c0.27734,0.47656 0.88672,0.64063 1.36328,0.36328c0.23047,-0.12891 0.39844,-0.34766 0.46875,-0.60547c0.07031,-0.25781 0.03516,-0.53125 -0.09766,-0.75781c-0.18359,-0.31641 -0.52734,-0.50781 -0.89062,-0.5zM16.57031,25.5c-0.33984,0.01563 -0.64844,0.20313 -0.82031,0.5c-0.27734,0.47656 -0.10937,1.08984 0.36719,1.36328c0.47656,0.27734 1.08984,0.11328 1.36719,-0.36328c0.27344,-0.47656 0.10938,-1.08984 -0.36719,-1.36328c-0.16406,-0.09766 -0.35547,-0.14453 -0.54687,-0.13672zM13.91016,32.01563c-0.44922,0 -0.83984,0.30469 -0.95703,0.73828c-0.14453,0.53516 0.17188,1.08203 0.70703,1.22656c0.53516,0.14063 1.08203,-0.17578 1.22656,-0.71094c0.14063,-0.53125 -0.17578,-1.07812 -0.71094,-1.22266c-0.08594,-0.02344 -0.17578,-0.03516 -0.26562,-0.03125zM66.11719,32.01563c-0.10156,-0.00391 -0.19922,0.00391 -0.29687,0.03125c-0.53516,0.14453 -0.85156,0.69141 -0.70703,1.22266c0.14453,0.53516 0.69141,0.85156 1.22656,0.71094c0.53125,-0.14453 0.84766,-0.69141 0.70703,-1.22656c-0.11719,-0.42187 -0.49219,-0.72266 -0.92969,-0.73828zM13,38c-1.10547,0 -2,0.89453 -2,2c0,1.10547 0.89453,2 2,2c1.10547,0 2,-0.89453 2,-2c0,-1.10547 -0.89453,-2 -2,-2zM40,38c1.11719,0 2,0.88281 2,2c0,1.11719 -0.88281,2 -2,2c-1.11719,0 -2,-0.88281 -2,-2c0,-1.11719 0.88281,-2 2,-2zM67,38c-1.10547,0 -2,0.89453 -2,2c0,1.10547 0.89453,2 2,2c1.10547,0 2,-0.89453 2,-2c0,-1.10547 -0.89453,-2 -2,-2zM18,39c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM22,39c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM58,39c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM62,39c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM13.95703,45.98828c-0.10156,-0.00391 -0.19922,0.00781 -0.29687,0.03125c-0.25781,0.07031 -0.47656,0.23828 -0.60937,0.46875c-0.13281,0.23047 -0.16797,0.50391 -0.09766,0.76172c0.14453,0.53125 0.69141,0.84766 1.22266,0.70313c0.53516,-0.14062 0.85156,-0.6875 0.71094,-1.22266c-0.11328,-0.42578 -0.49219,-0.72656 -0.92969,-0.74219zM66.07031,45.98828c-0.44922,0.00781 -0.83984,0.30859 -0.95703,0.74609c-0.14453,0.53125 0.17188,1.07813 0.70703,1.22266c0.53516,0.14453 1.08203,-0.17187 1.22656,-0.70703c0.14063,-0.53516 -0.17578,-1.08203 -0.70703,-1.22266c-0.08984,-0.02734 -0.17969,-0.03906 -0.26953,-0.03906zM16.59375,52.5c-0.16797,0.00391 -0.33203,0.05078 -0.47656,0.13281c-0.47656,0.27734 -0.64453,0.88672 -0.36719,1.36719c0.13281,0.22656 0.35156,0.39453 0.60938,0.46484c0.25391,0.07031 0.52734,0.03516 0.75781,-0.10156c0.23047,-0.12891 0.39844,-0.34766 0.46484,-0.60547c0.07031,-0.25781 0.03516,-0.53125 -0.09766,-0.75781c-0.18359,-0.31641 -0.52734,-0.50781 -0.89062,-0.5zM63.33203,52.5c-0.33984,0.01953 -0.64844,0.20703 -0.81641,0.5c-0.27734,0.48047 -0.11328,1.08984 0.36328,1.36719c0.23047,0.13281 0.50391,0.16797 0.76172,0.10156c0.25781,-0.07031 0.47656,-0.23828 0.60938,-0.46875c0.13281,-0.22656 0.16797,-0.5 0.09766,-0.75781c-0.07031,-0.25781 -0.23828,-0.47656 -0.46875,-0.60547c-0.16406,-0.09766 -0.35547,-0.14453 -0.54687,-0.13672zM40,57c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM20.92188,58.09375c-0.26953,-0.00391 -0.53125,0.10156 -0.71875,0.29297c-0.39062,0.38672 -0.39062,1.02344 0,1.41016c0.38672,0.39063 1.02344,0.39063 1.41016,0c0.39063,-0.38672 0.39063,-1.02344 0,-1.41016c-0.18359,-0.1875 -0.42969,-0.29297 -0.69141,-0.29297zM59.10547,58.09375c-0.26953,-0.00391 -0.53125,0.10156 -0.71875,0.29297c-0.39062,0.38672 -0.39062,1.02344 0,1.41016c0.38672,0.39063 1.02344,0.39063 1.41016,0c0.39063,-0.38672 0.39063,-1.02344 0,-1.41016c-0.18359,-0.1875 -0.42969,-0.29297 -0.69141,-0.29297zM40,61c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM53.47266,62.37891c-0.16406,0.00781 -0.32812,0.05078 -0.47266,0.13672c-0.48047,0.27734 -0.64453,0.88672 -0.36719,1.36328c0.27734,0.48047 0.88672,0.64453 1.36719,0.37109c0.22656,-0.13281 0.39453,-0.35156 0.46484,-0.60937c0.07031,-0.25781 0.03516,-0.53125 -0.10156,-0.76172c-0.17969,-0.31641 -0.52344,-0.50781 -0.89062,-0.5zM26.45313,62.38672c-0.33984,0.01563 -0.64844,0.20313 -0.82031,0.49609c-0.13281,0.23047 -0.16797,0.50391 -0.10156,0.75781c0.07031,0.25781 0.23828,0.47656 0.46875,0.60938c0.47656,0.27734 1.08984,0.10938 1.36328,-0.36719c0.27734,-0.47656 0.11328,-1.08984 -0.36328,-1.36719c-0.16797,-0.09375 -0.35547,-0.14062 -0.54687,-0.12891zM40,65c-1.10547,0 -2,0.89453 -2,2c0,1.10547 0.89453,2 2,2c1.10547,0 2,-0.89453 2,-2c0,-1.10547 -0.89453,-2 -2,-2zM33,65.08203c-0.44531,0.00391 -0.83984,0.30469 -0.95312,0.74219c-0.14453,0.53125 0.17188,1.07813 0.70313,1.22266c0.53516,0.14453 1.08203,-0.17187 1.22656,-0.70703c0.14453,-0.53516 -0.17187,-1.08203 -0.70703,-1.22656c-0.08594,-0.01953 -0.17578,-0.03125 -0.26953,-0.03125zM47.02734,65.08203c-0.10156,-0.00391 -0.20312,0.00781 -0.29687,0.03125c-0.53516,0.14453 -0.85156,0.69141 -0.71094,1.22656c0.14453,0.53516 0.69141,0.85156 1.22656,0.70703c0.53516,-0.14453 0.85156,-0.69141 0.70703,-1.22266c-0.11328,-0.42578 -0.48828,-0.72656 -0.92578,-0.74219z"></path></g></g>
+                    </svg>
+                    </div>
+                    <h5>Save Your Time</h5>
+                    <p style={{paddingRight:"30px"}}>FourDevs Technologies is a game-changing solution that helps save valuable time.</p></div>
+                  <div class="col col3">
+                    <div style={{padding:"00px 30px 20px 30px"}}>
+                    <svg
+                          version="1.1"
+                          id="_x32_"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          width="64px"
+                          height="64px"
+                          viewBox="0 0 512 512"
+                          xmlSpace="preserve"
+                          fill="#000000"
+                        >
+                          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                          <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <style type="text/css">.st0{`fill:#000000;`}</style>
+                            <g>
+                              <path className="st0" d="M418.336,193.866C397.758,111.819,318.07,80.96,311.102,73.444l19.594-71.328c0,0-24.469-7.906-58.797,6.828 c-43.641,18.734-67.953-5.156-67.953-5.156l21.547,70.781c-6.766,7.688-91.516,42.141-106.875,123.219 c-7.797,41.094,3.422,92.531,39.25,127.516c12.953-4.984,29.078-8.219,49.969-8.219h85.594c19.844,0,35.984,16.141,35.984,35.984 c0,0.906-0.125,1.797-0.188,2.688C407.258,328.663,432.555,250.429,418.336,193.866z M312.883,263.132 c-1.969,4.25-4.984,7.984-8.953,11.141c-4.063,3.172-9.25,5.734-15.438,7.578c-3.031,0.875-6.359,1.563-9.938,2.016v11.828h-17.563 v-11.188c-6.422-0.328-12.625-1.172-18.469-2.625c-6.734-1.656-12.063-3.703-16.297-6.25c-1.016-0.625-1.109-0.844-1.109-3.016 v-15.125c0-1.172,0.266-1.172,0.625-1.172c0.313,0,0.672,0.094,0.938,0.234c1.453,0.766,2.984,1.531,4.547,2.297 c3.75,1.781,7.625,3.328,11.531,4.625c3.891,1.313,7.797,2.375,11.594,3.156c3.875,0.797,7.531,1.219,10.813,1.219 c8.266,0,14.234-1.609,18.266-4.922c4.125-3.391,6.203-7.609,6.203-12.547c0-2.469-0.422-4.75-1.25-6.766 c-0.875-2.141-2.469-4.109-4.766-5.875c-2.078-1.625-4.984-3.219-8.609-4.734c-3.5-1.469-8-3.047-13.375-4.703 c-7.109-2.281-13.125-4.719-17.875-7.234c-4.641-2.453-8.375-5.172-11.125-8.063c-2.672-2.813-4.594-5.891-5.75-9.156 c-1.172-3.328-1.766-7.031-1.766-10.984c0-5,1.25-9.609,3.703-13.703c2.5-4.203,6-7.859,10.359-10.906 c4.406-3.078,9.703-5.516,15.688-7.219c1.984-0.547,4.063-0.984,6.125-1.359v-11.625h17.563v10.594 c4.891,0.188,9.766,0.609,14.469,1.469c5.094,0.906,10.109,2.406,14.906,4.406c0.906,0.375,1.125,0.594,1.125,1.453v15.656 c-0.016,0.234-0.219,0.313-0.625,0.313c-0.359,0-0.656-0.063-0.828-0.125c-4.25-1.453-8.688-2.75-13.188-3.797 c-6.516-1.516-13.031-2.297-19.328-2.297c-7.75,0-13.75,1.516-17.859,4.5c-4.375,3.203-6.594,7.344-6.594,12.328 c0,2.156,0.484,4.219,1.406,6.109c0.938,1.906,2.5,3.734,4.688,5.406c2.031,1.563,4.703,3.109,8.203,4.688 c3.313,1.531,7.594,3.109,12.656,4.656c6.797,2.094,12.719,4.344,17.625,6.688c4.797,2.281,8.797,4.844,11.875,7.625 c3,2.672,5.203,5.766,6.594,9.188c1.438,3.5,2.156,7.609,2.156,12.25C315.836,254.179,314.836,258.866,312.883,263.132z"></path>
+                              <path className="st0" d="M234.57,374.46c14.281,0,58.859,0,58.859,0c11.828,0,21.406-9.578,21.406-21.391 c0-11.828-9.578-21.406-21.406-21.406c-10.703,0-32.094,0-85.594,0c-53.516,0-70.453,22.297-89.188,41.016l-33.984,29.688 c-2.203,1.922-3.469,4.688-3.469,7.625v98.641c0,1.313,0.766,2.516,1.969,3.063s2.609,0.359,3.609-0.516l65.672-56.297 c2.313-1.969,5.406-2.797,8.391-2.266l102.344,18.609c7.141,1.297,14.484-0.344,20.422-4.531c0,0,130.625-90.828,140.266-98.859 l0,0c9.188-8.438,9.094-20.672,0.641-29.875c-8.438-9.203-24.172-7.25-34.688,0.531c-9.625,8.016-75.359,51.219-75.359,51.219 H234.57l-0.25,0.125c-4.203-0.141-7.5-3.672-7.375-7.875c0.156-4.203,3.688-7.5,7.875-7.359L234.57,374.46z"></path>
+                            </g>
+                          </g>
+                        </svg>           
+                    </div>
+                    <h5 style={{padding:"00px 25px 0px 25px"}}>Affordable Price For You</h5>
+                    <p style={{opacity:"100%",padding:"00px 25px 0px 25px"}}>At FourDevs technologies, we prioritize offering our services at an affordable price for you.</p></div>
+                  <div style={{padding:"00px 30px 0px 30px"}} class="col">
+                    <div style={{paddingBottom:"20px"}} >
+                    <svg
+                      fill="#ff6400"
+                      height="50px"
+                      width="50px"
+                      version="1.1"
+                      id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      viewBox="0 0 512 512"
+                      xmlSpace="preserve"
+                      stroke="#ff6400"
+                    >
+                      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                      <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <g>
+                          <g>
+                            <path d="M256,0c-4.51,0-8.166,3.656-8.166,8.166v44.383c0,4.51,3.656,8.166,8.166,8.166s8.166-3.656,8.166-8.166V8.166C264.166,3.656,260.51,0,256,0z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M162.956,74.165l-21.23-38.976c-2.157-3.961-7.117-5.423-11.077-3.265c-3.96,2.158-5.422,7.117-3.265,11.077l21.231,38.976c1.482,2.721,4.284,4.261,7.178,4.261c1.32,0,2.658-0.32,3.899-0.996C163.652,83.085,165.113,78.125,162.956,74.165z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M84.418,141.561L47.13,117.488c-3.79-2.448-8.843-1.359-11.289,2.431c-2.446,3.789-1.358,8.844,2.431,11.289l37.288,24.072c1.37,0.885,2.904,1.307,4.421,1.307c2.679,0,5.305-1.318,6.868-3.738C89.296,149.061,88.207,144.007,84.418,141.561z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M381.349,31.924c-3.963-2.158-8.921-0.695-11.077,3.265l-21.229,38.976c-2.157,3.961-0.696,8.919,3.264,11.077c1.241,0.676,2.579,0.996,3.899,0.996c2.894,0,5.696-1.542,7.178-4.261l21.229-38.976C386.771,39.04,385.309,34.082,381.349,31.924z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M476.159,119.92c-2.446-3.789-7.504-4.875-11.289-2.431l-37.288,24.072c-3.789,2.446-4.878,7.5-2.431,11.289c1.562,2.419,4.187,3.738,6.868,3.738c1.518,0,3.053-0.422,4.421-1.306l37.288-24.072C477.517,128.762,478.605,123.708,476.159,119.92z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M357.63,119.907c-26.533-26.873-61.926-41.955-99.659-42.465c-39.282-0.496-77.577,15.748-105.133,44.661c-3.112,3.265-2.987,8.433,0.278,11.545c3.265,3.111,8.435,2.988,11.545-0.278c24.432-25.637,58.362-40.089,93.091-39.599c33.416,0.453,64.761,13.81,88.259,37.61c23.521,23.822,36.474,55.381,36.474,88.862c0,26.958-8.371,52.692-24.209,74.42c-0.143,0.196-0.276,0.397-0.402,0.605l-0.998,1.661c-3.899,6.491-7.479,12.45-10.77,17.996c-2.302,3.879-1.023,8.889,2.855,11.19c1.307,0.775,2.743,1.144,4.159,1.144c2.788,0,5.505-1.428,7.03-4c3.277-5.523,6.841-11.456,10.724-17.92l0.814-1.355c17.749-24.477,27.127-53.425,27.127-83.742C398.814,182.438,384.188,146.805,357.63,119.907z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M340.905,340.129c-4.009-2.06-8.933-0.481-10.995,3.531c-7.356,14.315-11.749,26.121-14.148,38.268H196.238c-4.863-24.654-17.421-45.557-40.65-84.227l-1.461-2.431c-0.125-0.208-0.259-0.409-0.402-0.606c-15.838-21.728-24.209-47.462-24.209-74.42c0-21.791,5.819-43.38,16.83-62.432c2.257-3.904,0.92-8.899-2.984-11.155c-3.903-2.257-8.898-0.921-11.155,2.984c-12.443,21.533-19.02,45.947-19.02,70.603c0,30.316,9.378,59.264,27.127,83.742l1.277,2.125c23.336,38.849,34.733,57.826,38.853,80.175c-7.504,4.854-12.484,13.29-12.484,22.873c0,7.418,2.984,14.148,7.812,19.064c-4.828,4.916-7.812,11.647-7.812,19.064c0,15.015,12.216,27.231,27.229,27.231h11.417C212.696,496.319,232.792,512,256,512c23.208,0,43.304-15.68,49.395-37.483h11.417c15.015,0,27.229-12.216,27.229-27.231c0-7.418-2.984-14.148-7.812-19.064c4.827-4.916,7.812-11.647,7.812-19.064c0-9.583-4.98-18.02-12.484-22.873c2.04-11.092,5.916-21.612,12.878-35.161C346.497,347.113,344.915,342.19,340.905,340.129z M256,495.669c-14.214,0-26.716-8.625-32.117-21.152h64.234C282.714,487.044,270.212,495.669,256,495.669z M294.103,436.388h22.708c6.01,0,10.898,4.89,10.898,10.898c0,6.01-4.89,10.899-10.898,10.899H195.187c-6.01,0-10.898-4.89-10.898-10.899s4.89-10.898,10.898-10.898h66.631c4.51,0,8.166-3.656,8.166-8.166s-3.656-8.166-8.166-8.166h-66.631c-6.01,0-10.898-4.89-10.898-10.898c0-4.921,3.279-9.086,7.766-10.436c0.421-0.126,0.851-0.221,1.286-0.295c0.131-0.023,0.261-0.042,0.393-0.06c0.48-0.063,0.964-0.109,1.453-0.109h121.623c0.49,0,0.973,0.045,1.453,0.109c0.133,0.017,0.263,0.038,0.395,0.061c0.431,0.073,0.858,0.168,1.276,0.293c4.491,1.347,7.775,5.513,7.775,10.438c0,6.01-4.89,10.898-10.898,10.898h-22.708c-4.51,0-8.166,3.656-8.166,8.166C285.938,432.733,289.593,436.388,294.103,436.388z"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    </div>
+                    <h5>Best Strategy</h5>
+                    <p>The best strategy for your projects involves careful planning and organization</p></div>
+                </div>  
+          </div>
+          </div>
+          </div>
+          <div className="section2">
+            <div className="section2-picsection">
+                 <div className="section2-circle">
+                  <div >
+                  <img style={{marginTop:"-65px",marginLeft:"55px"}} className="section2-piC" loading="lazy" decoding="async" width="412" height="571" src="https://fourdevs.net/wp-content/uploads/2023/09/31.png" class="attachment-full size-full wp-image-61" alt="" srcset="https://fourdevs.net/wp-content/uploads/2023/09/31.png 412w, https://fourdevs.net/wp-content/uploads/2023/09/31-216x300.png 216w" sizes="(max-width: 412px) 100vw, 412px"/>
+                  </div>
+                 </div>
+            </div>
+            <div className="section2-text">
+            <button className='headerbtn1'>ABOUT FOURDEVS</button>
+            <h2 >15 Years Of Experiences In Social Media Marekting</h2>
+            <p>With 15 years of experience in social media marketing, I have honed my skills and expertise in reaching and engaging target audiences across various platforms.</p>
+            <div style={{display:'flex',gap:"25px",marginTop:"30px"}}>
+              <div >
+              <svg className='section2-text-good-mark' width="50px" height="50px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <defs>
+          <style>{`.cls-1 { fill: #a5a2ee; fill-rule: evenodd; }`}</style>
+        </defs>
+        <path className="cls-1" d="M800,510a30,30,0,1,1,30-30A30,30,0,0,1,800,510Zm-16.986-23.235a3.484,3.484,0,0,1,0-4.9l1.766-1.756a3.185,3.185,0,0,1,4.574.051l3.12,3.237a1.592,1.592,0,0,0,2.311,0l15.9-16.39a3.187,3.187,0,0,1,4.6-.027L817,468.714a3.482,3.482,0,0,1,0,4.846l-21.109,21.451a3.185,3.185,0,0,1-4.552.03Z" id="check" transform="translate(-770 -450)"></path>
+      </g>
+               </svg>   
+               </div>
+              <div className='section2-text-txt'>
+              <h3>Optimization Engine Rank</h3>
+              <p>The optimization engine rank is a crucial factor in determining the success of a website.</p>
+              </div>
+            </div>
+            <div className='section2-text-2nd-div' style={{display:'flex',gap:"25px",margintop:"30px"}}>
+              <div >
+              <svg className='section2-text-good-mark' width="50px" height="50px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <defs>
+          <style>{`.cls-1 { fill: #a5a2ee; fill-rule: evenodd; }`}</style>
+        </defs>
+        <path className="cls-1" d="M800,510a30,30,0,1,1,30-30A30,30,0,0,1,800,510Zm-16.986-23.235a3.484,3.484,0,0,1,0-4.9l1.766-1.756a3.185,3.185,0,0,1,4.574.051l3.12,3.237a1.592,1.592,0,0,0,2.311,0l15.9-16.39a3.187,3.187,0,0,1,4.6-.027L817,468.714a3.482,3.482,0,0,1,0,4.846l-21.109,21.451a3.185,3.185,0,0,1-4.552.03Z" id="check" transform="translate(-770 -450)"></path>
+      </g>
+               </svg>   
+               </div>
+              <div className='section2-text-txt'>
+              <h3>Optimization Engine Rank</h3>
+              <p>The optimization engine rank is a crucial factor in determining the success of a website.</p>
+              </div>
+            </div>
+            <div style={{display:'flex',gap:"25px",marginTop:"30px"}}>
+              <div >
+              <svg className='section2-text-good-mark' width="50px" height="50px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <defs>
+          <style>{`.cls-1 { fill: #a5a2ee; fill-rule: evenodd; }`}</style>
+        </defs>
+        <path className="cls-1" d="M800,510a30,30,0,1,1,30-30A30,30,0,0,1,800,510Zm-16.986-23.235a3.484,3.484,0,0,1,0-4.9l1.766-1.756a3.185,3.185,0,0,1,4.574.051l3.12,3.237a1.592,1.592,0,0,0,2.311,0l15.9-16.39a3.187,3.187,0,0,1,4.6-.027L817,468.714a3.482,3.482,0,0,1,0,4.846l-21.109,21.451a3.185,3.185,0,0,1-4.552.03Z" id="check" transform="translate(-770 -450)"></path>
+      </g>
+               </svg>   
+               </div>
+              <div className='section2-text-txt'>
+              <h3>Optimization Engine Rank</h3>
+              <p>The optimization engine rank is a crucial factor in determining the success of a website.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div className="section3">
+          <button className='headerbtn1'>OUR SERVICES</button>
+          <h2>We Provide The Best Service For You</h2>
+          <p>At FourDevs, we strive to provide the best service for you. Our team of dedicated professionals is committed to meeting your needs and exceeding your expectations.</p>
+           <div className="section3-boxs">
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>Website Development</h3>
+                <p>We offer a wide range of products and services to help you build your website, app, or game.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>Email Marketing</h3>
+                <p>Email marketing is a effective digital marketing strategy that involves sending emails to a group of individuals.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>Social Media Management</h3>
+                <p>Social media management is an essential aspect of any successful business in today's digital age.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>SEO Management</h3>
+                <p>SEO management is an essential part of any online marketing strategy.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>Business Strategy</h3>
+                <p>Business strategy is a plan of action designed to achieve specific goals or objectives that will lead to the success and growth of a business.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+            <div className="section3-box">
+              <div className="section3-box-content">
+                <img src="" alt="" />
+                <h3>Social Media Management</h3>
+                <p>Social media management is an essential aspect of any successful business in today's digital age.</p>
+                <button className='section3-readmore-butn'><div>Read more</div><div></div></button>
+              </div>
+            </div>
+           </div>
+          </div> 
+    </div>
+    </>  
+  )
+}

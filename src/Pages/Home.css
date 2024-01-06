@@ -1,0 +1,249 @@
+div{
+    font-family: "DM Sans", Sans-serif;
+}
+/* .body{
+    background-color: #f3f6fd;
+} */
+.container{
+    width: 1400px;
+}
+.headerbtn1{
+    border: none;
+    background: #f3c9ce;
+    padding: 10px 15px 10px 15px;
+    background-color: #FFE0CC;
+    border-radius: 50px 50px 50px 50px;
+    color: #C51A31;
+    font-size: 12px;
+    font-weight: 500;
+}
+.header-heading{ 
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.header{
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+.header-text{
+    width: 50%;
+    padding-right: 50px;
+}
+.header-para{
+   font-size: 15px;
+   opacity: 60%;
+}
+.header-btn{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 40px;
+}
+.standard-btn{
+    fill: #FFF;
+    color: #FFF;
+    background-color: #C51A31;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    transition: 0.3s;
+}
+.standard-btn:hover{
+    margin-top: -7px;
+    background-color: #5eb6e2;
+    transition: 0.3s;
+}
+.intro-btn{
+    color: #000000;  
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: none;
+    padding-top: 15px;
+    margin-left: -90px;
+}
+.watch-intro-btn{
+    display: flex;
+    gap: 90px;
+}
+.header-pic{
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+.circle1{
+    border: 60px solid #3c3569;
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #50497b;
+}
+.dotted-boder{
+    padding: 50px;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
+.header-pic-img{
+    margin-top: -645px;
+    margin-left: 120px;
+}
+.image-container{
+    display: flex;
+}
+.image-container1{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.image-container2{
+    width: 40px;
+    height: 40px;
+    margin-left: -7px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.text-container{
+    font-weight: bold;
+    font-size: 14px;
+    align-self:center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* -------------------------section 1------------------------------------------- */
+.section1{
+    width: 1000px;
+    padding: 30px 30px 40px 30px;
+    margin: 50px 0px 50px 0px;
+    border-radius: 30px;
+    background-color: #29204c;
+    color: white;  
+}
+.section1 h5{
+    font-weight: bolder;
+}
+.col1{
+    margin-left: 30px;
+    padding-top: 40px;
+}
+.col2{
+    border-left:2px solid #312a52;
+    padding-left: 40px;
+}
+.col3{
+
+    background-color: #ff6400;
+    margin-top: -70px;
+    margin-bottom: -70px;
+    border-radius: 20px;
+    padding: 40px 30px 0px 30px;
+}
+.section1 p{
+    font-size: 14px;
+    opacity: 50%;
+}
+/* -------------------------section 2------------------------------------------- */
+.section2{
+    display: flex;
+    margin: 140px 0px 100px 0px;
+    gap: 100px;
+}
+.section2-picsection{
+  justify-content: center;
+  width: 50%;
+}
+.section2-circle{
+    background-color: #fec29b;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+/* .section2-piC{
+   margin-top:-65px;
+   margin-left:55px;
+} */
+.section2-text{
+    width: 50%;
+}
+.section2-text h2{
+    font-weight:bold;
+    padding-top: 15px;
+}
+.section2-text p{
+    opacity: 70%;
+    padding-top: 15px;
+    font-size: 16px;
+}
+.section2-text-good-mark{
+    
+    border: 14px solid #efe6fe;
+    border-radius: 50%;
+}
+.section2-text-txt h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.section2-text-txt p{
+    font-size: 15px;
+    padding: 0px;
+}
+.section2-text-2nd-div{
+    background-color: #efe6fe;
+    padding: 20px 20px 20px 40px;
+    border-radius: 50px;
+}
+.section2-text-2nd-div svg{
+    border: 14px solid white;
+}
+/* -----------------------------section 3-------------------------- */
+ .section3 {
+    padding-top: 100px;
+    color: white;
+    background-color: #1d193b;
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    margin-bottom: 100px;
+}
+.section3 h2{
+    padding-top: 15px;
+}
+.section3 p{
+    padding-top: 15px;
+    width: 450px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 60%;
+}
+.section3-boxs{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.section3-box{
+    background-color: white;
+    width: 310px;
+    height: 270px;
+    border-radius: 20px;
+}
+.section3-box-content{
+    padding: 40px;
+    color: black;
+}
