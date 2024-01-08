@@ -238,12 +238,46 @@ div{
     padding: 50px;
 }
 .section3-box{
-    background-color: white;
     width: 310px;
-    height: 270px;
     border-radius: 20px;
+    background: linear-gradient(to right, #f7f7ff 50%, #ffffff 50%);
+}
+.section3-box:hover .section3-readmore-butn{
+    color: #fe6401;
+    opacity: 100%;
+}
+.section3-box:hover{
+    background: linear-gradient(to right, #f7f7ff 50%, #f7f7ff 50%);
+}
+.section3-box:hover .svg-hover{
+    stroke: #fe6401;
+    opacity: 100%;
 }
 .section3-box-content{
     padding: 40px;
     color: black;
+}
+.section-img-div{
+    width: 60px;
+    height: 60px;
+}
+.section3-box-content h3{
+    font-size: 18px;
+    padding-top: 7px;
+    font-weight: bold;
+}
+.section3-box-content p{
+    font-size: 14px;
+    padding-top: 7px;
+    display: inline;
+}
+.section3-readmore-butn{
+    border: none;
+    background-color: #f7f7ff;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 50%;
+    margin-top: 10px;
+    display: flex;
+    gap: 7px;
 }
