@@ -1,16 +1,26 @@
 div{
     font-family: "DM Sans", Sans-serif;
+
 }
-/* .body{
+.body{
+    padding: 0px 100px 0px 100px;
     background-color: #f3f6fd;
-} */
-.container{
-    width: 1400px;
 }
+.container{
+    width: 1600px;
+}
+@media (min-width: 1200px){
+.container{
+    max-width: 1260px;
+    padding: 0%;
+    margin: 0%;
+}
+}
+
 .headerbtn1{
     border: none;
     background: #f3c9ce;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 7px 15px;
     background-color: #FFE0CC;
     border-radius: 50px 50px 50px 50px;
     color: #C51A31;
@@ -161,8 +171,9 @@ div{
 /* -------------------------section 2------------------------------------------- */
 .section2{
     display: flex;
-    margin: 140px 0px 100px 0px;
+    margin: 140px 80px 100px 60px;
     gap: 100px;
+    padding: 0px 30px 0px 30px;
 }
 .section2-picsection{
   justify-content: center;
@@ -213,13 +224,13 @@ div{
 }
 /* -----------------------------section 3-------------------------- */
  .section3 {
-    padding-top: 100px;
+    padding: 100px 30px 0px 30px;
     color: white;
     background-color: #1d193b;
     align-items: center;
     flex-flow: column;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .section3 h2{
     padding-top: 15px;
@@ -233,23 +244,42 @@ div{
 }
 .section3-boxs{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
     padding: 50px;
 }
 .section3-box{
-    width: 310px;
+    width: 30%;
     border-radius: 20px;
     background: linear-gradient(to right, #f7f7ff 50%, #ffffff 50%);
 }
+.section3-box6{
+    width: 30%;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ffe1cd 50%, #ffffff 50%);
+}
 .section3-box:hover .section3-readmore-butn{
+    color: #fe6401;
+    opacity: 100%;
+}
+.section3-box6:hover .section3-readmore-butn{
     color: #fe6401;
     opacity: 100%;
 }
 .section3-box:hover{
     background: linear-gradient(to right, #f7f7ff 50%, #f7f7ff 50%);
 }
+.section3-box6:hover{
+    background: linear-gradient(to right, #ffe1cd 50%, #ffe1cd 50%);
+}
+.section3-box6 button{
+    background-color: #ffe1cd;
+}
 .section3-box:hover .svg-hover{
+    stroke: #fe6401;
+    opacity: 100%;
+}
+.section3-box6:hover .svg-hover{
     stroke: #fe6401;
     opacity: 100%;
 }
@@ -280,4 +310,229 @@ div{
     margin-top: 10px;
     display: flex;
     gap: 7px;
+}
+/* --------------------------section4-------------------- */
+.section4{
+   margin-bottom: 50px;
+}
+.section4-header{
+    background-color: #141025;
+    padding: 60px 100px 250px 100px;
+    display: flex;
+}
+.section4-heading{
+width: 50%;
+}
+.section4-text{
+    width: 50%;
+}
+.section4-heading h3{
+    padding-top: 20px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.section4-text p{
+ color: white;
+ opacity: 50%;
+}
+.veiwallproduct{
+fill: #FFF;
+color: #FFF;
+background-color: #1e70af;
+border-radius: 50px;
+border: none;
+padding: 10px 30px 10px 30px;
+font-size: 15px;
+font-weight: bold;
+transition: 0.3s;
+margin-top: 10px;
+}
+.veiwallproduct:hover{
+    margin-top: 4px;
+    margin-bottom: 6px;
+    background-color: #C51A31;
+    transition: 0.3s;
+}
+.section4-pics-section{
+    padding: 0px 30px 0px 30px;
+    margin-top: -170px;
+    display: flex;
+    gap: 30px;
+}
+.section4-pic1{
+    background-image: url('https://fourdevs.net/wp-content/uploads/2023/10/IMG-20231002-WA0093.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    width: 275px;
+    height: 400px;
+    border-radius: 10px;
+}
+.section4-pic2{
+    background-image: url('https://fourdevs.net/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-29-at-18.27.49.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    width: 275px;
+    height: 400px;
+    border-radius: 10px;
+}
+.section4-pic3{
+    background-image: url('https://fourdevs.net/wp-content/uploads/2023/09/51-1.png');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    width: 275px;
+    height: 400px;
+    border-radius: 10px;
+}
+.section4-pic4{
+    background-image: url('https://fourdevs.net/wp-content/uploads/2023/09/service-5.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    width: 275px;
+    height: 400px;
+    border-radius: 10px;
+}
+.sectio4-pics1text,.sectio4-pics2text, .sectio4-pics3text, .sectio4-pics4text{
+   display: none;
+   transition: 1s;
+}
+.sectio4-pics1text,.sectio4-pics2text,.sectio4-pics3text,.sectio4-pics4text{
+    color: white;
+    padding: 200px 30px 0px 30px;
+    opacity: 100%;
+    transition: 1s;
+   }
+
+.section4-pic1:hover .sectio4-pics1text{
+    width: 275px;
+    height: 400px;
+   display: block;
+   background-color: #fc8e37;
+   opacity: 85%;
+   transition: 1s;
+   border-radius: 10px;
+}
+.section4-pic2:hover .sectio4-pics2text{
+    width: 275px;
+    height: 400px;
+   display: block;
+   background-color: #fc8e37;
+   opacity: 85%;
+   border-radius: 10px;
+   transition: 1s;
+}
+.section4-pic3:hover .sectio4-pics3text{
+    width: 275px;
+    height: 400px;
+   display: block;
+   background-color: #fc8e37;
+   opacity: 85%;
+   transition: 1s;
+   border-radius: 10px;
+}
+.section4-pic4:hover .sectio4-pics4text{
+    width: 275px;
+    height: 400px;
+   display: block;
+   transition: 1s;
+   background-color: #fc8e37;
+   opacity: 85%;
+   border-radius: 10px;
+}
+/* ------------------------------------------------------section 5----------------------- */
+.section-5{
+    padding: 80px 100px 40px 120px;
+    display: flex;
+    gap: 100px;
+}
+.section-5-firstdiv{
+    width: 50%;
+    padding-top: 70px;
+}
+.section-5-firstdiv h2{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.section-5-firstdiv p{
+    opacity: 60%;
+    padding-top: 20px;
+}
+.section-5-readmorebtn{
+    fill: #FFF;
+    color: #FFF;
+    background-color: #29204c;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 10px;
+    }
+    .section-5-readmorebtn:hover{
+        margin-top: 4px;
+        margin-bottom: 6px;
+        background-color: #C51A31;
+        transition: 0.3s;
+    }
+  .section-5-2nddiv{
+    width: 50%;
+    display: block;
+  }  
+  .section-5-boxs{
+    position: relative;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .section-5-box1{
+    background-color: #ffe1cd;
+    width: 230px;
+    height: 170px;
+    border-radius: 10px;
+  }
+  .section-5-box2{
+    border-radius: 10px;
+    background-color: #efecfe;
+    width: 230px;
+    height: 170px;
+    border: 10px;
+  }
+  .crcle{
+    margin-left: 115px;
+    margin-top: 115px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px dashed black;
+    width: 275px;
+    height: 275px;
+  }
+ /* ------------------------------------section 6---------------------- */
+ .section-6{
+    padding-left: 100px;
+    padding-right: 100px ;
+    padding-bottom: 100px;
+ }
+ .section-6-images{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .section-6-imge{
+    width: 170px;
+    height: 40px;
+    opacity: 60%;
+ }
+ .section-6-imge:hover{
+    opacity: 100%;
+ }
+
+.section-6-line{
+    margin-bottom: 60px;
+    border: 1px solid #efecfe;
 }

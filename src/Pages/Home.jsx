@@ -73,10 +73,10 @@ export default function Home() {
                 </div>
                 <div style={{display:"flex",gap:'30px',margin:"50px 0px 0px 50px"}}>
                 <div className="image-container">
-                      <img className="image-container1" src={img}/>
-                      <img className="image-container2" src={img}/>
-                      <img className="image-container2" src={img}/>
-                      <img className="image-container2" src={img}/>
+                      <img className="image-container1" src={img} alt=''/>
+                      <img className="image-container2" src={img} alt=''/>
+                      <img className="image-container2" src={img} alt=''/>
+                      <img className="image-container2" src={img} alt=''/>
                 </div>
                     <div className="text-container">
                       3460+ Satisfied Clients
@@ -327,7 +327,7 @@ export default function Home() {
                   </div> 
                   </div>
             </div>
-            <div className="section3-box">
+            <div className="section3-box6">
               <div className="section3-box-content">
                 <img  className="section-img-div" src="https://fourdevs.net/wp-content/uploads/2023/09/social-media-management.png" alt="" />
                 <h3>Social Media Management</h3>
@@ -341,6 +341,79 @@ export default function Home() {
             </div>
            </div>
           </div> 
+
+          <div className="section4">
+            <div className="section-body">
+              <div className="section4-header">
+                <div className="section4-heading">
+                <button className='headerbtn1'>OUR PROJECTS</button>
+                <h3>Project We Have Done</h3>
+                </div>
+                <div className="section4-text">
+                  <p>Over the years, our team has successfully completed numerous projects that have showcased our expertise and commitment to excellence.</p>
+                  <div className="viewprojectbtn">
+                  <button className="veiwallproduct"><div>Veiw All Projects</div></button>
+                  </div>
+                </div>
+              </div>
+              <div className="section4-pics-section">
+                <div className="section4-pic1">
+                <div className="sectio4-pics1text">
+                  <h3>Social Media Ads</h3>
+                  <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </div>
+                </div>
+                <div img className="section4-pic2">
+                <div className="sectio4-pics2text">
+                  <h3>Email Marketing</h3>
+                  <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </div>
+                </div>
+                <div img className="section4-pic3" >
+                <div className="sectio4-pics3text">
+                  <h3>Content Writter</h3>
+                  <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </div>
+                </div>
+                <div img className="section4-pic4" >
+                <div className="sectio4-pics4text">
+                  <h3>Business Strategy</h3>
+                  <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="section-5">
+            <div className="section-5-firstdiv">
+               <button className='headerbtn1'>ACHIEVEMENT</button>
+               <h2>Some Number Of Our Achievement</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <button className="section-5-readmorebtn"><div>Read More</div></button>
+            </div>
+            <div className="section-5-2nddiv">
+            <div className="crcle">
+                </div>
+              <div className="section-5-boxs">
+                <div className="section-5-box1"></div>
+                <div className="section-5-box2"></div>
+                <div className="section-5-box2"></div>
+                <div className="section-5-box1"></div>
+              </div>
+              
+            </div>
+          </div>
+          <div className="section-6">
+            <div className="section-6-line"></div>
+            <div className="section-6-images">
+              <div><img className="section-6-imge" src="https://fourdevs.net/wp-content/uploads/2023/09/partner-1.png" alt="" /></div>
+              <div><img className="section-6-imge" src="https://fourdevs.net/wp-content/uploads/2023/09/partner-2.png" alt="" /></div>
+              <div><img className="section-6-imge" src="https://fourdevs.net/wp-content/uploads/2023/09/partner-4.png" alt="" /></div>
+              <div><img className="section-6-imge" src="https://fourdevs.net/wp-content/uploads/2023/09/partner-3.png" alt="" /></div>
+            </div>
+          </div>
     </div>
     </>  
   )
