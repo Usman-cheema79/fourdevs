@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400&display=swap');
 div{
-    font-family: "DM Sans", Sans-serif;
-
+    font-family: 'DM Sans', sans-serif;
 }
 .body{
     padding: 0px 100px 0px 100px;
     background-color: #f3f6fd;
 }
-.container{
-    width: 1600px;
-}
+
 @media (min-width: 1200px){
 .container{
     max-width: 1260px;
@@ -359,6 +357,8 @@ margin-top: 10px;
     margin-top: -170px;
     display: flex;
     gap: 30px;
+    justify-content: center;
+
 }
 .section4-pic1{
     background-image: url('https://fourdevs.net/wp-content/uploads/2023/10/IMG-20231002-WA0093.jpg');
@@ -536,3 +536,135 @@ margin-top: 10px;
     margin-bottom: 60px;
     border: 1px solid #efecfe;
 }
+/* ------------------------------section 7------------------ */
+.section-7{
+    background-color: #141124;
+    padding: 60px 110px 90px 110px;
+}
+.section-7-header{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+.section-7-header1{
+    width: 50%;
+}
+.section-7-header1 h2{
+    font-weight: bold;
+    padding-top: 20px;
+    color: white;
+}
+.section-7-header2 p{
+    opacity: 60%;
+    color: white;
+    padding-top: 20px;
+}
+.section-7-header2{
+   width: 50%;
+}
+.section-7-body{
+    display: flex;
+padding-top: 30px;
+gap:80px;
+}
+.section7-div1{
+    width: 300px;
+    padding-top: 40px;
+}
+.section-7-textheadings{
+    width: 210px;
+    padding: 7px;
+  display: flex;
+  align-items: center;
+  color: #8c8a99;
+  font-size: 15px;
+}
+.section7-perdiv{
+    color: #ff6400 ;
+    font-size: 22px;
+   
+}
+.section7-div2{
+    width: 300px;
+    height: 320px;
+    background-color: #eeecff;    
+    border-radius: 20px;
+}
+.section7-div3 h4{
+      color:#ff6400;
+      font-size: 18px;
+      padding-top: 40px;
+      font-weight: bold;
+}
+.section7-div2 img{
+  width: 300px;
+  height: 320px;
+}
+.section7-div3-text{
+    color: white;
+    opacity: 60%;
+    margin-top: 25px;
+}
+.section7-div3-text p1{
+    font-weight: bold;
+}
+.section7-div3-text div{
+    margin-top: 10px;
+}
+.section7-div3-comasvg{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+/* ------------------------------section 8------------------ */
+.section8{
+    flex-direction: column;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+.section-8-boxs{
+    padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.section-8-box img{
+   width: 340px;
+  border-radius: 15px;
+   height: 240px;
+}
+.section-8-box h5{
+    font-weight: bold;
+    padding-top: 15px;
+ }
+ .section-8-box h5:hover{
+   color: #e37559;
+   cursor: pointer;
+ }
+ .section-8-box-date{
+    opacity: 60%;
+    font-size: 14px;
+    padding-bottom: 7px;
+ }
+ .section-8-box p{
+    opacity: 60%;
+    font-size: 15px;
+ }
+ .section8-readmore-butn{
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    gap: 7px;
+}
+.section8-readmore-butn:hover{
+    color: #fe6401;
+    opacity: 100%;
+}
+.section8-readmore-butn:hover .svg-hover{
+    stroke: #fe6401;
+    opacity: 100%;
+}
+
