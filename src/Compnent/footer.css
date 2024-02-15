@@ -98,6 +98,16 @@ padding-bottom: 15px;
     padding: 3px;
     transition: 0.3s;
 }
+.footer-svg-colour1{
+    transition: 0.3s;
+    color: white;
+}
+.footer-svg-colour1:hover{
+    cursor: pointer;
+    fill:#100d1f;
+    padding: 3px;
+    transition: 0.3s;
+}
 .footer-icons{
     display: flex;
     gap: 18px;

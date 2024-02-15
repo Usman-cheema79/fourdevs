@@ -1,0 +1,52 @@
+.aboutsections1{
+    display: flex;
+    gap: 20px;
+    padding: 60px;
+}
+.abouthidesvg{
+    opacity:0% ;
+    padding: 0%;
+    margin: 0%;
+    margin-top: -40px;
+    margin-left: 160px;
+}
+.aboutsections1box{
+    text-align: left;
+    background-color: #EEEDFE;
+    padding: 40px 30px 0px 30px;
+    border-radius: 10px;
+    width: 270px;
+}
+.aboutsections1box p{
+   opacity: 60%;
+}
+.aboutsections1box h3{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.aboutsections1box:hover .abouthidesvg{
+opacity: 30%;
+transition: 0.5s;
+}
+.aboutsections1box:hover{
+   background-color: #28214c;
+   transition: 0.5s;
+}
+.aboutsections1box:hover h3{
+    color: #ffffff;
+    transition: 0.5s;
+ }
+ .aboutsections1box:hover p{
+    color: #ffffff;
+    transition: 0.5s;
+ }
+ .aboutsections1box:hover p{
+    color: #ffffff;
+    transition: 0.5s;
+ }
+ .aboutsections1box:hover .aboutssvg1{
+    stroke: #ffffff;
+    fill: #ffffff;
+    transition: 0.5s;
+ }
