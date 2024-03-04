@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400&display=swap');
+div{
+    font-family: 'DM Sans', sans-serif;
+}
 .navbar{
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
+    justify-content: center;
+    display: flex;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    align-items: center;
 }
 .logo{
     width:200px;
@@ -20,9 +32,9 @@
 }
 .nav-phone{
     display: flex;
-
 }
 .nav-btn{
+    margin-top: -32px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -30,9 +42,44 @@
 }
 .nav-link{
     color: black;
-    font-weight: 430;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 15px;
+
 }
 .nav-link:hover{
     color: rgb(252, 48, 48);
+}
+@media (max-width: 900px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-btn{
+        margin-top: 0px;
+    }
+    .container-fluid{
+         width: 900px;
+    }
+}
+@media (max-width: 450px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-btn{
+        margin-top: 0px;
+    }
+    .container-fluid{
+         width: 1300px;
+    }
+    
+.header {
+    gap: 100px;
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
 }
