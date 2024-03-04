@@ -9,7 +9,7 @@ export default function Navbar(props) {
       <div className="nav-li">
   <div className="container-fluid">
     <div>
-    <a to="" className="navbar-brand" href="#"><img className="logo" src="https://fourdevs.net/wp-content/uploads/2023/09/FourDevs.png" alt="" /></a>
+    <a to="/" className="navbar-brand" href="/"><img className="logo" src="https://fourdevs.net/wp-content/uploads/2023/09/FourDevs.png" alt="" /></a>
     </div>
     <div className='nav-phone'>
      <div>

@@ -16,6 +16,7 @@
     padding: 40px 30px 0px 30px;
     border-radius: 10px;
     width: 270px;
+    transition: 0.5s;
 }
 .aboutsections1box p{
    opacity: 60%;
@@ -50,3 +51,381 @@ transition: 0.5s;
     fill: #ffffff;
     transition: 0.5s;
  }
+ /*-------------------------------------- box 2----------------------------------- */
+ .aboutsections1box1{
+   text-align: left;
+   background-color: #f6dfcf;
+   padding: 40px 30px 0px 30px;
+   border-radius: 10px;
+   width: 270px;
+   transition: 0.5s;
+}
+.abouthidesvg1{
+   opacity:0% ;
+   padding: 0%;
+   margin: 0%;
+   margin-top: -40px;
+   margin-left: 160px;
+}
+.aboutsections1box1 p{
+  opacity: 60%;
+}
+.aboutsections1box1 h3{
+   font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 8px;
+}
+.aboutsections1box1:hover .abouthidesvg1{
+   fill: #ffffff;
+   stroke: #ffffff;
+opacity: 30%;
+transition: 0.5s;
+}
+.aboutsections1box1:hover{
+  background-color: coral;
+  transition: 0.5s;
+}
+.aboutsections1box1:hover h3{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box1:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box1:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box1:hover .aboutssvg1{
+   stroke: #ffffff;
+   fill: #ffffff;
+   transition: 0.5s;
+}
+ /*-------------------------------------- box 2----------------------------------- */
+ .abouthidesvg4{
+   opacity:0% ;
+   padding: 0%;
+   margin: 0%;
+   margin-top: -40px;
+   margin-left: 160px;
+}
+ .aboutsections1box4{
+   text-align: left;
+   background-color: #fefffe;
+   padding: 40px 30px 0px 30px;
+   border: 1px solid rgb(236, 231, 231);
+   box-shadow: 3px black;
+   border-radius: 10px;
+   width: 270px;
+   transition: 0.5s;
+}
+.aboutsections1box4 p{
+  opacity: 60%;
+}
+.aboutsections1box4 h3{
+   font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 8px;
+}
+.aboutsections1box4:hover .abouthidesvg4{
+opacity: 50%;
+stroke: #ffffff;
+fill: #ffffff;
+transition: 0.5s;
+}
+.aboutsections1box4:hover{
+  background-color: coral;
+  transition: 0.5s;
+}
+.aboutsections1box4:hover h3{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box4:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box4:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box4:hover .aboutssvg4{
+   stroke: #ffffff;
+   fill: #ffffff;
+   transition: 0.5s;
+}
+
+/*-------------------------------------- box 2----------------------------------- */
+.aboutsections1box3{
+   text-align: left;
+   background-color: #fefffe;
+   padding: 40px 30px 0px 30px;
+   border: 1px solid rgb(236, 231, 231);
+   box-shadow: 3px black;
+   border-radius: 10px;
+   width: 270px;
+   transition: 0.5s;
+}
+.abouthidesvg3{
+   opacity:0% ;
+   padding: 0%;
+   margin: 0%;
+   margin-top: -40px;
+   margin-left: 160px;
+}
+.aboutsections1box3 p{
+  opacity: 60%;
+}
+.aboutsections1box3 h3{
+   font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 8px;
+}
+.aboutsections1box3:hover .abouthidesvg3{
+opacity: 90%;
+transition: 0.5s;
+}
+.aboutsections1box3:hover{
+  background-color: #28214c;
+  transition: 0.5s;
+}
+.aboutsections1box3:hover h3{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box3:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box3:hover p{
+   color: #ffffff;
+   transition: 0.5s;
+}
+.aboutsections1box3:hover .aboutssvg3{
+   stroke: #ffffff;
+   fill: #ffffff;
+   transition: 0.5s;
+}
+/* ------------------------------section3-------------------- */
+.section3{
+   margin-top: 90px;
+}
+.section3_1half{
+   width: 50%;
+   background-color: #28214c;
+   height: 890px;
+   margin-top: -40px;
+   margin-bottom: 40px;
+   border-top-right-radius: 30px;
+}
+.section3_2half {
+   width: 50%;
+   background-image: url(../img/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg);
+   background-size: 100% auto;
+   border-bottom-left-radius: 30px;
+}
+.headerbtn1{
+   border: none;
+   background: #f3c9ce;
+   padding: 10px 15px 7px 15px;
+   background-color: #FFE0CC;
+   border-radius: 50px 50px 50px 50px;
+   color: #C51A31;
+   font-size: 12px;
+   font-weight: 500;
+}
+.section3_1half{
+padding-left: 60px;
+padding-top: 50px;
+padding-right: 50px;
+}
+.section3_1half h1{
+color: #ffffff;
+font-weight: bold;
+padding-top: 13px;
+}
+.section3_1half p{
+   color: #ffffff;
+   opacity: 50%;
+   padding-top: 20px;
+   }
+.section31haftbox{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+.boxheader{
+   background-color: #ff7014;
+   width: 75px;
+   height: 75px;
+   border-radius: 10px;
+}
+.box{
+ padding-top: 20px;
+}
+.box h4{
+   padding-top: 10px;
+   font-weight: bold;
+   color: white;
+  }
+  .box p{
+   padding-top: 3px;
+   color: white;
+   width: 227px;
+  }
+  /* -----------------------section4----------- */
+  .section4{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .section4 h1{
+   font-weight: bold;
+   padding-top: 20px;
+  }
+  .section4 p{
+   opacity: 50%;
+   padding-top: 16px;
+   width: 600px;
+   text-align: center;
+  }
+  .progressboxscircle{
+   width: 110px;
+   border-radius: 50%;
+   height: 110px;
+   background-color: #ff7014;
+   border: 15px solid #fee5ca;
+  }
+  .progressbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .progressbox p{
+   width: 305px;
+ }
+ .progressbox h4{
+padding-top: 20px;
+font-weight: bold;
+margin: 0%;
+}
+.progressboxs{
+margin-top: 50px;
+display: flex;
+ gap: 80px;
+}
+.progressboxline {
+   margin-bottom: 220px;
+   margin-top: -211px;
+   width: 820px;
+   height: 3px;
+   background-image: linear-gradient(to right, black 50%, transparent 50%);
+   background-size: 6px 3px;
+ } 
+ 
+ .progressboxs {
+   position: relative;
+ }
+ /* -------------------------section 5----------------- */
+
+ .section5 { 
+   margin-top: 100px; 
+     display: flex;
+   padding: 120px;
+   background-color: #242135;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+}
+.section5 h1{  
+  font-weight: bold;
+}
+.section5 p{  
+   padding-top: 20px; 
+   text-align: center;
+   width: 680px;
+}
+.section5 button{  
+   margin-top: 15px;
+   padding: 15px 38px 15px 38px;
+   border: none;
+   border-radius: 30px;
+   background-color: #ff6400;
+   color: #ffffff;
+   transition: 0.2s;
+
+}
+.section5 button:hover{  
+   margin-top: 8px;
+   margin-bottom: 7px;
+   transition: 0.3s;
+}
+/* -------------------------section 6----------------- */
+.section6{    
+   gap: 10px;
+   margin-top: 90px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.section6 h1{    
+   font-weight: bold;
+}
+.section6 p{    
+   text-align: center;
+    opacity: 50%;
+    width: 605px;
+}
+.teambox img{
+   width: 345px;
+   height: 485px;
+   border-radius: 20px;
+}
+.boxhover{
+   margin-top: -485px;
+   width: 345px;
+   height: 485px;
+   border-radius: 20px;
+   background-color: black;
+   opacity: 0%;
+   display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.teambox:hover .boxhover{
+   opacity: 60%;
+}
+.teambox h4{
+font-weight: bold;
+}
+.teambox h6{
+   opacity: 70%;
+}
+.namebox{
+   position: absolute;
+   margin-top: 396px;
+   width: 204px;
+   padding: 12px 5px 14px 20px;
+   border-top-right-radius: 20px;
+   background-color: #ffffff; 
+}
+.teamboxs{
+   display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.footer-svg-colour{
+   transition: 0.3s;
+   color: white;
+}
+.footer-svg-colour:hover{
+   
+   cursor: pointer;
+   fill: white;
+   padding: 3px;
+   transition: 0.3s;
+}

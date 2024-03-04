@@ -23,7 +23,7 @@ div{
     border-radius: 50px 50px 50px 50px;
     color: #C51A31;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: bold;
 }
 .header-heading{ 
     font-weight: 600;
@@ -224,7 +224,7 @@ div{
  .section3 {
     padding: 100px 30px 0px 30px;
     color: white;
-    background-color: #1d193b;
+    /* background-color: #1d193b; */
     align-items: center;
     flex-flow: column;
     display: flex;
@@ -248,6 +248,7 @@ div{
 }
 .section3-box{
     width: 30%;
+    box-shadow: 1px 1px 1px 1px rgb(231, 231, 231);
     border-radius: 20px;
     background: linear-gradient(to right, #f7f7ff 50%, #ffffff 50%);
 }
