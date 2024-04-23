@@ -13,24 +13,24 @@ router.post('/users', async (req, res) => { // Remove '/users' prefix
     // Check if the username is already taken
     const existingUser = await User.findOne({ username: req.body.username });
     if (existingUser) {
+      console.log("alrready exist");
       return res.status(400).send({ error: 'Username is already taken' });
     }
     // Hash the password
-    const hashedPassword = await bcrypt.hash(req.body.password, 10);
+    // const hashedPassword = await bcrypt.hash(req.body.password, 10);
     
     // Create a new user instance
     const user = new User({
       username: req.body.username,
       email: req.body.email,
-      password: hashedPassword,
+      password: req.body.password,
       phoneNumber: req.body.phoneNumber
     });
 
     // Save the user to the database
     await user.save();
-    
-    res.status(201).send(user);
-  } catch (error) {
+    res.status(200).json({ message: "Registered successfully.", user });  }
+     catch (error) {
     res.status(400).send(error);
   }
 });
