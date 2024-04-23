@@ -1,0 +1,105 @@
+.section1{    
+    gap: 10px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .section1 h1{    
+    font-weight: bold;
+ }
+ .section1 p{    
+    text-align: center;
+     opacity: 50%;
+     width: 605px;
+ }
+ .teambox img{
+    width: 360px;
+    height: 409px;
+    border-radius: 20px;
+ }
+ .boxhover{
+   margin-top: -409px;
+    width: 360px;
+    height: 409px;
+    border-radius: 20px;
+    background-color: #c76011;
+    opacity: 0%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s;
+
+ }
+ .teambox:hover .boxhover{
+    opacity: 75%;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+ .teambox h4{
+ font-weight: bold;
+ }
+ .teambox h6{
+    opacity: 70%;
+ }
+ .namebox{
+    
+    margin-top: 396px;
+    width: 324px;
+    padding: 12px 5px 34px 20px;
+    margin-bottom: 140px;
+   color: #ffffff;
+   transition: 0.5s;
+ }
+ .teamboxs{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+ }
+ .footer-svg-colour{
+    transition: 0.3s;
+    color: white;
+ }
+ .footer-svg-colour:hover{    
+    cursor: pointer;
+    fill: white;
+    padding: 3px;
+    transition: 0.3s;
+ }
+ /*----------------------------------------- section-2--------------------------------------------------- */
+ .section2 { 
+   margin-top: 100px; 
+     display: flex;
+   padding: 120px;
+   background-color: #242135;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+}
+.section2 h1{  
+  font-weight: bold;
+}
+.section2 p{  
+   padding-top: 20px; 
+   text-align: center;
+   width: 680px;
+}
+.section2 button{  
+   margin-top: 15px;
+   padding: 15px 38px 15px 38px;
+   border: none;
+   border-radius: 30px;
+   background-color: #ff6400;
+   color: #ffffff;
+   transition: 0.2s;
+
+}
+.section2 button:hover{  
+   margin-top: 8px;
+   margin-bottom: 7px;
+   transition: 0.3s;
+}
