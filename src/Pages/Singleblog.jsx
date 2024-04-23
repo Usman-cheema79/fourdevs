@@ -1,5 +1,5 @@
 import React from 'react'
-import sblogcss from "./singleblog.module.css"
+import "./singleblog.css"
 import Navbar from '../Compnent/Navbar'
 import Footer from '../Compnent/Footer';
 import Header from '../Compnent/Header'
